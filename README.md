@@ -1,6 +1,16 @@
 # ytdlp-extractor
 
-Prototype desktop Python pour piloter yt-dlp : audio/vidéo, sous-titres, file d’attente et historique SQLite. L’interface CustomTkinter est en français. Les onze langues proposées concernent les sous-titres et la transcription, pas la traduction de l’interface.
+## En bref
+
+**Ce que c’est :** une application desktop Python qui prépare des téléchargements audio ou vidéo avec yt-dlp.
+
+**À quoi elle sert :** choisir un format, récupérer des sous-titres, gérer une file d’attente et conserver un historique local SQLite.
+
+**Ce qui a été réalisé :** interface française, presets, stockage, normalisation audio et téléchargement d’un clip synthétique servi localement.
+
+**Technologies :** Python, CustomTkinter, yt-dlp, FFmpeg, SQLite et uv.
+
+L’accès actuel à YouTube, les sessions authentifiées et le cycle graphique complet restent à valider.
 
 ## État réel
 
