@@ -8,7 +8,7 @@ macOS, Python 3.11.16, Tk 8.6 ; trois paquets de `uv.lock` installés avec `uv s
 - Échec simulé avec sortie partielle et succès simulé avec sortie vide : original conservé, temporaire nettoyé.
 - Presets : domaines exacts et sous-domaines acceptés ; `notyoutube.com`, `youtube.com.attacker.invalid`, URL vide et locale sans correspondance ni exception.
 - Test séparé : clip H.264/AAC synthétique de 2 s servi par HTTP local éphémère ; commande `YtDlpRunner.build`, yt-dlp retour 0, MP3 puis `Pipeline.run` sans transcription. ffprobe : piste audio, durée 2,000 s. Aucun cookie ni média externe.
-- `App().mainloop()` lancé avec répertoires isolés, sans erreur immédiate. Computer Use indique un Mac verrouillé : affichage, interactions et captures non confirmés.
+- `App().mainloop()` lancé avec répertoires isolés, sans erreur immédiate. Initialement, Computer Use indique un Mac verrouillé. Après déverrouillage, nouveau lancement isolé et capture native dans la conversation : l'interface originale apparaît bien. Les essais de clic ne permettent pas de confirmer un changement d'onglet ; navigation et cycle UI/worker restent non validés. Aucune capture native sauvegardée n'est incluse dans le dépôt à ce stade.
 
 ## Corrections
 

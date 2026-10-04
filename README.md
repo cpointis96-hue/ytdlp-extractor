@@ -6,7 +6,7 @@ Prototype desktop Python pour piloter yt-dlp : audio/vidéo, sous-titres, file d
 
 Le stockage, les presets et la normalisation audio sont testés. Une commande construite par l’application a téléchargé un clip synthétique servi localement, l’a converti en MP3 puis normalisé. Cela ne valide pas l’accès actuel à YouTube, les sessions authentifiées ou le cycle complet de la file graphique.
 
-Le processus graphique a été lancé sans erreur immédiate sur macOS. La vérification visuelle et les captures restent à faire : Computer Use a trouvé le Mac verrouillé. Aucune capture n’est présentée comme déjà vérifiée.
+Le processus graphique a été lancé sans erreur immédiate sur macOS avec des dossiers isolés. Après déverrouillage, Computer Use montre bien l'interface originale CustomTkinter, sans historique ni URL personnelle. Les essais de clic n'ont pas établi un changement d'onglet : le cycle graphique complet reste non validé. La capture native a été affichée dans la conversation, mais n'est pas encore incluse dans cette archive.
 
 ## Installation et lancement
 
