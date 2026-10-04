@@ -57,4 +57,8 @@ La découverte du fichier à post-traiter repose sur les fichiers récents. Cert
 
 Priorités : vérifier les onglets et le cycle ajouter/annuler/reprendre ; gérer les exécutables manquants ; associer le job à sa sortie exacte ; rendre les échecs visibles ; tester les sous-titres sur une source autorisée. `APP-LAYOUT.md` est un plan Tauri envisagé, pas l’application livrée.
 
-Cette copie corrige les domaines de presets, la sécurité du remplacement audio et le lanceur, sans redessiner l’interface. Les sources originales restent intactes. Publication GitHub et téléchargements hébergés encore en attente.
+Cette copie corrige les domaines de presets, la sécurité du remplacement audio et le lanceur, sans redessiner l’interface. Les sources originales restent intactes. Aucun binaire hébergé n’est annoncé ici.
+
+## Dépôt et téléchargement
+
+[Voir le dépôt](https://github.com/cpointis96-hue/ytdlp-extractor) · [Télécharger les sources ZIP](https://github.com/cpointis96-hue/ytdlp-extractor/archive/HEAD.zip). Le ZIP contient les sources ; suivre l’installation ci-dessus.
