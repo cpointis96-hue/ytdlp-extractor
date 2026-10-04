@@ -1,0 +1,9 @@
+[project]
+name = "ytdlp-extractor"
+version = "0.1.0"
+description = "Local audio/video extraction with intelligent resource management"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "customtkinter>=5.2.2",
+]

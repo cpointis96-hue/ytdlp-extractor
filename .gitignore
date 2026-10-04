@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.local-test/
+cookies*.txt
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+.aider*
+.claude/
